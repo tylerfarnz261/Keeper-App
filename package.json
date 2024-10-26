@@ -1,0 +1,33 @@
+{
+  "name": "using-pre-built-react-components",
+  "version": "1.0.0",
+  "homepage": "https://tylerfarnz261.github.io/Keeper-App",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-scripts": "3.2.0",
+    "@material-ui/core": "4.12.4",
+    "@material-ui/icons": "4.11.3",
+    "@mui/icons-material": "6.1.5",
+    "@mui/material": "6.1.5",
+    "@emotion/styled": "11.13.0",
+    "@emotion/react": "11.13.3",
+    "@mui-extra/icons": "0.0.94",
+    "gh-pages": "6.2.0"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
